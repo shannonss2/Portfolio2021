@@ -215,6 +215,14 @@ img {
   padding-bottom: 35px;
 }
 
+.mobile-only {
+  display: none;
+}
+
+.desktop-only {
+  display: block;
+}
+
 .dropdown {
   display: none;
 }
@@ -400,5 +408,13 @@ ul {
 
   #photo-right {
     width: 100%;
+  }
+
+  .mobile-only {
+    display: block;
+  }
+
+  .desktop-only {
+    display: none;
   }
 }
