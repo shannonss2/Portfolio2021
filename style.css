@@ -59,6 +59,11 @@ hr {
   border-color: white;
 }
 
+img {
+  width: 100%;
+    height: auto;
+}
+
 #website {
   width: 100%;
   height: 87vh;
@@ -159,8 +164,7 @@ hr {
   font-family: 'Syne';
   font-weight: 400;
   font-size: .9em;
-  line-height:0;
-  font-style: italic;
+  line-height: 0;
   color: #525252;
   text-align: right;
 }
@@ -178,7 +182,6 @@ hr {
 }
 
 #caption-left {
-  font-style: italic;
   text-align: left;
   line-height:0;
 }
