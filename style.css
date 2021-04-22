@@ -159,6 +159,9 @@ img {
   width: 64%;
 }
 
+#plain-text {
+  text-align: right;
+}
 
 #text-right > ul {
   margin: 0;
@@ -353,6 +356,14 @@ ul {
 
   #text-container {
     margin: 25px;
+  }
+
+  #plain-text {
+    margin: 15px;
+  }
+
+  .line-break {
+    display: inline-block;
   }
 
   .dropdown {
